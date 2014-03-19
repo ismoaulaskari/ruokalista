@@ -13,7 +13,7 @@
   </p>
   <p>
     <%= f.label :meatiness %><br />
-    <%= f.text_field :meatiness %>
+    <%= f.select(:meatiness, options_for_select([['vege', 'vege'], ['fish', 'fish'], ['pale', 'pale'], ['red', 'red']], 'vege')) %>
   </p>
   <p>
     <%= f.submit 'Create' %>
