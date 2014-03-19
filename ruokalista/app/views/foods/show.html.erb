@@ -1,0 +1,18 @@
+<p>
+  <b>Week:</b>
+  <%=h @food.week %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%=h @food.name %>
+</p>
+
+<p>
+  <b>Meatiness:</b>
+  <%=h @food.meatiness %>
+</p>
+
+
+<%= link_to 'Edit', edit_food_path(@food) %> |
+<%= link_to 'Back', foods_path %>
