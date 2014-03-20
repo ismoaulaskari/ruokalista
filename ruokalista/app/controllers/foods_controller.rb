@@ -44,7 +44,7 @@ class FoodsController < ApplicationController
 
     respond_to do |format|
       if @food.save
-        format.html { redirect_to(@food, :notice => 'Food was successfully created.') }
+        format.html { redirect_to(foods_path, :notice => 'Food was successfully created.') }
         format.xml  { render :xml => @food, :status => :created, :location => @food }
       else
         format.html { render :action => "new" }
@@ -60,7 +60,7 @@ class FoodsController < ApplicationController
 
     respond_to do |format|
       if @food.update_attributes(params[:food])
-        format.html { redirect_to(@food, :notice => 'Food was successfully updated.') }
+        format.html { redirect_to(foods_path, :notice => 'Food was successfully updated.') }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }
