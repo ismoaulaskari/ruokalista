@@ -3,7 +3,7 @@ class FoodsController < ApplicationController
   # GET /foods.xml
   def index
     @foods = Food.all
-
+    @env = printenv
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @foods }
@@ -79,5 +79,10 @@ class FoodsController < ApplicationController
       format.html { redirect_to(foods_url) }
       format.xml  { head :ok }
     end
+  end
+
+  private
+  def printenv
+    @env = request.env
   end
 end
