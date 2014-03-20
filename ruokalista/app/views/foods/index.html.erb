@@ -10,7 +10,9 @@
     <th>Meatiness</th>
   </tr>
 
+<% i = 0 %>
 <% @foods.each do |food| %>
+  <% i = i +1 %>
   <tr>
     <td><%=h food.week %></td>
     <td><%=h food.name %></td>
@@ -19,6 +21,12 @@
     <td><%= link_to 'Edit', edit_food_path(food) %></td>
     <td><%= link_to 'Destroy', food, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
+  <% if i % 9 == 0 %>
+    <tr><td span="6"/></tr>
+    <tr><td span="6"/></tr>
+    <tr><td span="6"/></tr>
+    <tr><td span="6"/></tr>
+  <% end %>
 <% end %>
 </table>
 
