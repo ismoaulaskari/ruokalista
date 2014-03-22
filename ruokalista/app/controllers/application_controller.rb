@@ -13,6 +13,9 @@ class ApplicationController < ActionController::Base
   private 
   def require_login 
     unless logged_in? 
+      request.env.each do |value| 
+        logger.info value 
+      end
       flash[:error] = "You must be logged in to access this section" 
       #redirect_to new_login_url # halts request cycle 
       render(:file => File.join(Rails.root, 'public/403.html'), :status => 403, :layout => false)
@@ -25,7 +28,7 @@ class ApplicationController < ActionController::Base
     if Rails.env.production? then
       request.env['HTTP_X_FORWARDED_HOST'].start_with? 'yourwebhost.com' if request.env['HTTP_X_FORWARDED_HOST'].present? 
     else
-      request.env['HTTP_REFERER'].start_with? 'http://localhost:3001' if request.env['HTTP_REFERER'].present?
+      #request.env['HTTP_REFERER'].start_with? 'http://localhost:3001' if request.env['HTTP_REFERER'].present?
     end
   end
 
@@ -35,4 +38,5 @@ class ApplicationController < ActionController::Base
       username == USERNAME && password == PASSWORD
     end 
   end
+
 end
