@@ -23,7 +23,7 @@ class ApplicationController < ActionController::Base
 
   def logged_in? 
     if Rails.env.production? then
-      request.env['HTTP_X_FORWARDED_HOST'].start_with? 'artannika.com' if request.env['HTTP_X_FORWARDED_HOST'].present? 
+      request.env['HTTP_X_FORWARDED_HOST'].start_with? 'yourwebhost.com' if request.env['HTTP_X_FORWARDED_HOST'].present? 
     else
       request.env['HTTP_REFERER'].start_with? 'http://localhost:3001' if request.env['HTTP_REFERER'].present?
     end
