@@ -2,7 +2,7 @@ class FoodsController < ApplicationController
   # GET /foods
   # GET /foods.xml
   def index
-    @foods = Food.all
+    @foods = Food.all(:order => "week ASC, name ASC")
     @env = printenv
     respond_to do |format|
       format.html # index.html.erb
