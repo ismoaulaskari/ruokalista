@@ -1,0 +1,1000 @@
+ 1031  vim app/controllers/ratings_controller.rb 
+ 1032  vim app/controllers/memberships_controller.rb 
+ 1033  vim app/views/beer_clubs/
+ 1034  vim app/views/beer_clubs/new.html.erb 
+ 1035  vim app/views/beer_clubs/_form.html.erb 
+ 1036  vim app/views/memberships/new.html.erb 
+ 1037  vim app/views/memberships/_form.html.erb 
+ 1038  vim app/views/ratings/new.html.erb 
+ 1039  vim app/views/memberships/_form.html.erb 
+ 1040  vim app/controllers/memberships_controller.rb 
+ 1041  vim app/controllers/ratings_controller.rb 
+ 1042  vim app/controllers/memberships_controller.rb 
+ 1043  cd app/controllers/
+ 1044  vim *
+ 1045  cd -
+ 1046  vim app/controllers/memberships_controller.rb 
+ 1047  vim app/controllers/sessions_controller.rb 
+ 1048  vim app/controllers/memberships_controller.rb 
+ 1049  vim app/controllers/sessions_controller.rb 
+ 1050  vim app/controllers/memberships_controller.rb 
+ 1051  vim app/controllers/ratings_controller.rb 
+ 1052  vim app/controllers/memberships_controller.rb 
+ 1053  vim app/controllers/users_controller.rb 
+ 1054  vim app/controllers/memberships_controller.rb 
+ 1055  vim app/controllers/ratings_controller.rb 
+ 1056  vim app/controllers/users_controller.rb 
+ 1057  vim app/controllers/memberships_controller.rb 
+ 1058  vim app/controllers/users_controller.rb 
+ 1059  vim app/controllers/memberships_controller.rb 
+ 1060  vim app/controllers/users_controller.rb 
+ 1061  vim app/controllers/memberships_controller.rb 
+ 1062  vim db/schema.rb 
+ 1063  vim app/controllers/memberships_controller.rb 
+ 1064  vim app/views/memberships/new.html.erb 
+ 1065  vim app/views/memberships/_form.html.erb 
+ 1066  vim app/controllers/memberships_controller.rb 
+ 1067  git status
+ 1068  history|grep git
+ 1069  git status
+ 1070  vim db/seeds.rb 
+ 1071  git status
+ 1072  git commit -a
+ 1073  git push -u origin master
+ 1074  git push heroku master
+ 1075  rails -v
+ 1076  ruby -v
+ 1077  vim app/controllers/beers_controller.rb 
+ 1078  vim app/controllers/ratings_controller.rb 
+ 1079  git status
+ 1080  vim Gemfile
+ 1081  bundle install
+ 1082  rails generate rspec:install
+ 1083  git status
+ 1084  git add -a
+ 1085  git add -A
+ 1086  git commit -m"4. viikon testaukseen valmistautumista"
+ 1087  git push -u origin master
+ 1088  rails generate rspec:model user
+ 1089  vim spec/models/user_spec.rb 
+ 1090  rspec spec
+ 1091  git help push
+ 1092  ssh -XCp 1979 fuu.it.helsinki.fi
+ 1093  cd .rbenv/ratebeer/
+ 1094  rails server
+ 1095  Cp 1979 fuu.it.helsinki.fi
+ 1096  rails console
+ 1097  actories.rb
+ 1098  vim spec/models/user_spec.rb 
+ 1099  vim app/models/user.rb 
+ 1100  vim spec/models/user_spec.rb 
+ 1101  vim spec/factories.rb
+ 1102  vim spec/models/user_spec.rb 
+ 1103  vim spec/factories.rb
+ 1104  vim spec/models/user_spec.rb 
+ 1105  git status
+ 1106  git add -A
+ 1107  git status
+ 1108  git rm --cached -r spec/models/.user_spec.rb.swp
+ 1109  git status
+ 1110  git commit -m"4_1 tehty"
+ 1111  git push -u origin master
+ 1112  git help push
+ 1113  git add -A
+ 1114  git status
+ 1115  git commit -m"tehtävä 4_2"
+ 1116  git push -u origin master
+ 1117  ssh 192.168.1.100
+ 1118  mkdir spec/features
+ 1119  vim spec/features/breweries_page_spec.rb
+ 1120  rspec spec
+ 1121  vim spec/features/breweries_page_spec.rb
+ 1122  rspec spec
+ 1123  vim app/views/breweries/index.html.erb 
+ 1124  rspec spec
+ 1125  vim spec/features/breweries_page_spec.rb
+ 1126  rspec spec
+ 1127  vim ./spec/models/user_spec.rb
+ 1128  rspec spec
+ 1129  vim spec/features/breweries_page_spec.rb
+ 1130  vim spec/features/users_spec.rb
+ 1131  rspec spec
+ 1132  vim spec/factories.rb 
+ 1133  vim spec/features/users_spec.rb
+ 1134  rspec spec
+ 1135  rspec -fd spec
+ 1136  vim spec/features/users_spec.rb
+ 1137  rspec -fd spec
+ 1138  vim spec/features/ratings_spec.rb
+ 1139  rspec -fd spec
+ 1140  mkdir -p spec/support/helpers
+ 1141  vim spec/support/helpers/own_test_helper.rb
+ 1142  vim spec/features/ratings_spec.rb
+ 1143  rspec spec
+ 1144  vim spec/features/ratings_spec.rb
+ 1145  rspec spec
+ 1146  vim spec/features/users_spec.rb
+ 1147  rspec spec
+ 1148  vim spec/features/users_spec.rb
+ 1149  vim spec/features/beers_spec.rb
+ 1150  rspec spec
+ 1151  vim spec/features/beers_spec.rb
+ 1152  rspec spec
+ 1153  BROWSER='/usr/bin/firefox' rspec spec
+ 1154  which firefox
+ 1155  which chromium-browser
+ 1156  BROWSER='/usr/bin/chromium-browser' rspec spec
+ 1157  export BROWSER='/usr/bin/chromium-browser' rspec spec
+ 1158  env
+ 1159  export BROWSER='/usr/bin/chromium-browser' 
+ 1160  env
+ 1161  env|grep B
+ 1162  rspec spec
+ 1163  /usr/bin/chromium-browser 
+ 1164  vim spec/features/beers_spec.rb
+ 1165  rspec spec
+ 1166  vim spec/features/beers_spec.rb
+ 1167  rspec spec
+ 1168  vim spec/features/beers_spec.rb
+ 1169  rspec spec
+ 1170  vim spec/features/beers_spec.rb
+ 1171  vim spec/factories.rb 
+ 1172  vim spec/features/beers_spec.rb
+ 1173  vim spec/models/beer_spec.rb 
+ 1174  vim spec/features/beers_spec.rb
+ 1175  rspec spec
+ 1176  vim spec/features/beers_spec.rb
+ 1177  rspec spec
+ 1178  vim spec/features/beers_spec.rb
+ 1179  rspec spec
+ 1180  vim spec/factories.rb 
+ 1181  vim spec/features/beers_spec.rb
+ 1182  rspec spec
+ 1183  vim spec/features/beers_spec.rb
+ 1184  git add -A
+ 1185  git status
+ 1186  git commit -m"tehtävä 4_5"
+ 1187  git push -u origin master
+ 1188  vim spec/features/ratings_spec.rb 
+ 1189  vim spec/factories.rb 
+ 1190  vim spec/features/ratings_spec.rb 
+ 1191  rspec spec
+ 1192  vim spec/features/ratings_spec.rb 
+ 1193  rspec spec
+ 1194  vim spec/features/ratings_spec.rb 
+ 1195  vim spec/models/beer_spec.rb 
+ 1196  vim spec/models/user_spec.rb 
+ 1197  vim spec/features/ratings_spec.rb 
+ 1198  rspec spec
+ 1199  vim spec/features/ratings_spec.rb 
+ 1200  rspec spec
+ 1201  vim spec/features/ratings_spec.rb 
+ 1202  rspec spec
+ 1203  vim spec/features/ratings_spec.rb 
+ 1204  vim app/models/rating.rb 
+ 1205  vim spec/factories.rb 
+ 1206  vim app/models/user.rb 
+ 1207  vim spec/models/user_spec.rb 
+ 1208  rspec spec
+ 1209  vim spec/models/user_spec.rb 
+ 1210  rspec spec
+ 1211  vim spec/factories.rb 
+ 1212  vim app/models/rating.rb 
+ 1213  vim spec/features/ratings_spec.rb 
+ 1214  rspec spec
+ 1215  rake db:test:prepare
+ 1216  rspec spec
+ 1217  vim spec/features/ratings_spec.rb 
+ 1218  rspec spec
+ 1219  vim spec/features/ratings_spec.rb 
+ 1220  rspec spec
+ 1221  vim spec/features/ratings_spec.rb 
+ 1222  rspec spec
+ 1223  vim spec/features/ratings_spec.rb 
+ 1224  rspec spec
+ 1225  vim spec/features/ratings_spec.rb 
+ 1226  rspec spec
+ 1227  vim spec/features/ratings_spec.rb 
+ 1228  rspec spec
+ 1229  git add -A
+ 1230  vim spec/features/ratings_spec.rb 
+ 1231  git add -A
+ 1232  rspec spec
+ 1233  vim spec/features/ratings_spec.rb 
+ 1234  rspec spec
+ 1235  vim spec/features/ratings_spec.rb 
+ 1236  git add -A
+ 1237  git commit -m"tehtävä 4_6"
+ 1238  git push -u origin master
+ 1239  vim spec/features/ratings_spec.rb 
+ 1240  rspec spec
+ 1241  vim spec/features/ratings_spec.rb 
+ 1242  git add -A
+ 1243  git commit -m"tehtävä 4_7"
+ 1244  git push -u origin master
+ 1245  vim spec/features/ratings_spec.rb 
+ 1246  rspec spec
+ 1247  vim spec/features/ratings_spec.rb 
+ 1248  rspec spec
+ 1249  vim spec/features/ratings_spec.rb 
+ 1250  rspec spec
+ 1251  vim spec/features/ratings_spec.rb 
+ 1252  rspec spec
+ 1253  vim spec/features/ratings_spec.rb 
+ 1254  git add -A
+ 1255  git status
+ 1256  git commit -m"tehtävä 4_8"
+ 1257  git push -u origin master
+ 1258  git status
+ 1259  rails generate rspec:model brewery
+ 1260  vim spec/models/brewery_spec.rb 
+ 1261  rspec -fd spec/models/brewery_spec.rb 
+ 1262  git add -A
+ 1263  git status
+ 1264  git commit -m"tehtävä 4_8 jälkeinen should"
+ 1265  vim Gemfile
+ 1266  bundle install
+ 1267  bundle update
+ 1268  vim spec/spec_helper.rb 
+ 1269  rspec spec
+ 1270  vim spec/spec_helper.rb 
+ 1271  vim spec/models/beerclub_spec.rb
+ 1272  rspec spec
+ 1273  cd spec/
+ 1274  grep -R show
+ 1275  grep -R show *
+ 1276  grep -R open *
+ 1277  vim features/ratings_spec.rb
+ 1278  vim spec/models/beerclub_spec.rb
+ 1279  cd ..
+ 1280  vim spec/models/beerclub_spec.rb
+ 1281  ls app/models/
+ 1282  ls app/controllers/
+ 1283  vim spec/models/beerclub_spec.rb
+ 1284  vim spec/models/memberships_spec.rb
+ 1285  vim spec/models/beerclub_spec.rb
+ 1286  vim spec/models/sessions
+ 1287  vim spec/models/sessions.rb
+ 1288  rspec spec
+ 1289  vim spec/models/memberships_spec.rb
+ 1290  ls spec/models/
+ 1291  ls app/models/
+ 1292  vim spec/models/memberships_spec.rb
+ 1293  rspec spec
+ 1294  ls app/controllers/
+ 1295  vim spec/models/memberships_spec.rb
+ 1296  rspec spec
+ 1297  ls app/models/
+ 1298  ls app/controllers/o
+ 1299  ls app/controllers/
+ 1300  cat app/controllers/application_controller.rb 
+ 1301  vim spec/models/application_spec.rb
+ 1302  rspec spec
+ 1303  git add -A
+ 1304  git status
+ 1305  git commit -m"tehtävä 4_10"
+ 1306  git push -u origin master
+ 1307  vim .travis.yml
+ 1308  vim README.md
+ 1309  vim .travis.yml 
+ 1310  git add -A
+ 1311  git status
+ 1312  git commit -m"tehtävä 4_11"
+ 1313  git push -u origin master
+ 1314  rspec spec
+ 1315  rspec -fd spec
+ 1316  git status
+ 1317  vim README.md 
+ 1318  git status
+ 1319  git commit -m"tehtävä 4_11, kuva kuntoon"
+ 1320  git add -A
+ 1321  git commit -m"tehtävä 4_11, kuva kuntoon"
+ 1322  git push -u origin master
+ 1323  heroku auth:token
+ 1324  travis encrypt $(heroku auth:token) --add deploy.api_key
+ 1325  gem install travis -v 1.6.7 --no-rdoc --no-ri
+ 1326  travis version
+ 1327  ls
+ 1328  git add -A
+ 1329  git status
+ 1330  git commit -m"taustat valmiina ennen 4_5:ttä"
+ 1331  git push -u origin master
+ 1332  top
+ 1333  pkill openshot
+ 1334  top
+ 1335  kill -9 8064
+ 1336  rake routes
+ 1337  ssh klptest.it.helsinki.fi
+ 1338  ssh klptest.it.helsinki.fi
+ 1339  ssh -XC 192.168.1.100
+ 1340  Cp 1979 fuu.it.helsinki.fi
+ 1341  ssh -p 1979 fuu.it.helsinki.fi
+ 1342  ping www.google.fi
+ 1343  ssh -p 1979 fuu.it.helsinki.fi
+ 1344  ssh klptest.it.helsinki.fi
+ 1345  vim spec/spec_helper.rb 
+ 1346  rails console
+ 1347  acåo
+ 1348  acpi
+ 1349  cd .rbenv/ratebeer/
+ 1350  vim Gemfile
+ 1351  git status
+ 1352  cat spec/factories.rb 
+ 1353  bundle install
+ 1354  rails server
+ 1355  sudo wvdial
+ 1356  fg
+ 1357  pkill ppd
+ 1358  sudo pkill ppd
+ 1359  curl  http://beermapping.com/webservice/loccity/96ce1942872335547853a0bb3b0c24db/joensuu
+ 1360  wget  http://beermapping.com/webservice/loccity/96ce1942872335547853a0bb3b0c24db/joensuu
+ 1361  less joensuu 
+ 1362  wget  http://beermapping.com/webservice/loccity/96ce1942872335547853a0bb3b0c24db/helsinki
+ 1363  vim helsinki 
+ 1364  cd .rbenv/ratebeer/
+ 1365  rake routes
+ 1366  vim app/controllers/sessions_controller.rb 
+ 1367  vim lib/beermapping_api.rb 
+ 1368  vim app/controllers/sessions_controller.rb 
+ 1369  vim lib/beermapping_api.rb 
+ 1370  top
+ 1371  pkill openshot
+ 1372  rake routes
+ 1373  vim config/routes.rb 
+ 1374  ssh artannik@artannika.com
+ 1375  git status
+ 1376  cat db/schema.rb 
+ 1377  rake db:structure:dump 
+ 1378  cat db/structure.sql 
+ 1379  top
+ 1380  cd .rbenv/
+ 1381  ls
+ 1382  cd /tmp/
+ 1383  git clone https://github.com/mluukkai/WebPalvelinohjelmointi2014/tree/master/malliv/viikko5
+ 1384  git clone https://github.com/mluukkai/WebPalvelinohjelmointi2014.git
+ 1385  du -sh WebPalvelinohjelmointi2014/
+ 1386  cd WebPalvelinohjelmointi2014/malliv/viikko5/
+ 1387  ls
+ 1388  diff -R * ~/.rbenv/ratebeer/*
+ 1389  diff -r * ~/.rbenv/ratebeer/*
+ 1390  diff -r . ~/.rbenv/ratebeer/
+ 1391  diff -r app/ ~/.rbenv/ratebeer/app/
+ 1392  diff -wr app/ ~/.rbenv/ratebeer/app/
+ 1393  acpi
+ 1394  iwlist scan
+ 1395  vim app/views/beers/index.html.erb 
+ 1396  vim app/views/breweries/index.html.erb 
+ 1397  vim app/views/beers/index.html.erb 
+ 1398  vim app/views/breweries/index.html.erb 
+ 1399  vim app/views/beers/list.html.erb
+ 1400  vim Gemfile
+ 1401  vim app/assets/javascripts/application.js 
+ 1402  vim app/assets/javascripts/beerlist.js
+ 1403  vim app/views/ratings/index.json.jbuilder
+ 1404  vim app/assets/javascripts/beerlist.js
+ 1405  vim app/views/beers/list.html.erb
+ 1406  vim app/assets/javascripts/beerlist.js
+ 1407  git status
+ 1408  git add -A
+ 1409  git commit -m"ekat jqueryt"
+ 1410  vim app/views/beers/list.html.erb
+ 1411  vim app/assets/javascripts/beerlist.js
+ 1412  vim app/views/ratings/index.json.jbuilder
+ 1413  vim app/views/beers/index.json.jbuilder
+ 1414  vim app/assets/javascripts/beerlist.js
+ 1415  vim app/views/beers/index.json.jbuilder
+ 1416  vim app/assets/javascripts/beerlist.js
+ 1417  git status
+ 1418  git add -A
+ 1419  git commit -m"jqueryt valmiit pre 6_2"
+ 1420  git push -u origin master
+ 1421  cd spec/
+ 1422  grep -R click
+ 1423  grep -R click *
+ 1424  cd ..
+ 1425  cd app/views/
+ 1426  vim beer_clubs/index.html.erb 
+ 1427  sed -ie 's/\<table/\<table class="table table-hover"/' * 
+ 1428  sed -ie 's/\<table/\<table class="table table-hover"/' */*
+ 1429  grep '<<' */*
+ 1430  sed -ie 's/\<\</\</' */*
+ 1431  grep '<<' */*
+ 1432  sed -e 's/\<\<//' */*
+ 1433  sed -ie 's/\<\<//' */*
+ 1434  grep '<<' */*
+ 1435  man sed
+ 1436  sed -i -e 's/<</</' */*
+ 1437  grep '<<' */*
+ 1438  sed -i -e 's/<</</' */*
+ 1439  grep '<<' */*
+ 1440  grep '<' */*
+ 1441  ls
+ 1442  git status
+ 1443  ls */*eee
+ 1444  rm */*eee
+ 1445  ls */*ee
+ 1446  rm */*ee
+ 1447  ls */*e
+ 1448  rm */*e
+ 1449  git status
+ 1450  ls
+ 1451  git diff
+ 1452  ls
+ 1453  sed -i -e 's/\<table/\<table class="table table-hover"/' */*
+ 1454  vim beers/index.html.erb 
+ 1455  git status
+ 1456  git reset --hard
+ 1457  ls
+ 1458  git status
+ 1459  sed -i -e 's/<table/<table class="table table-hover"/' */*
+ 1460  git status
+ 1461  grep 'f.submit' */*
+ 1462  sed -i -e 's/f.submit/f.submit class:"btn btn-primary"/' */*
+ 1463  grep 'link_to' */*
+ 1464  grep 'Destroy' */*
+ 1465  cd 
+ 1466  cd -
+ 1467  cd ..
+ 1468  vim app/views/ratings/index.html.erb 
+ 1469  vim app/controllers/breweries_controller.rb 
+ 1470  vim app/models/brewery.rb 
+ 1471  vim app/views/ratings/index.html.erb 
+ 1472  cd app/views/
+ 1473  grep -R _path *
+ 1474  cd -
+ 1475  vim app/views/ratings/index.html.erb 
+ 1476  vim app/controllers/ratings_controller.rb 
+ 1477  vim app/views/ratings/index.html.erb 
+ 1478  vim app/views/memberships/index.html.erb 
+ 1479  vim app/views/users/index.html.erb 
+ 1480  vim app/views/users/show.html.erb 
+ 1481  cd app/views/
+ 1482  grep -R ave *
+ 1483  grep -R avera *
+ 1484  vim beers/show.html.erb
+ 1485  cd -
+ 1486  vim app/controllers/breweries_controller.rb 
+ 1487  vim app/views/layouts/_navigation_links.html.erb 
+ 1488  vim app/views/beers/index.html.erb 
+ 1489  vim app/views/ratings/index.html.erb 
+ 1490  git status
+ 1491  git add -A
+ 1492  git commit -m"tehtävä 6-17 kontrollerin cache"
+ 1493  git push -u origin master
+ 1494  vim ~/fb
+ 1495  pkill firefox
+ 1496  cp ~/fb ~/bin/railsserver
+ 1497  vim ~/bin/railsserver
+ 1498  chmod 755 ~/bin/railsserver
+ 1499  ls -la /home/
+ 1500  sudo mkdir /home/idm1
+ 1501  sudo chown aulaskar /home/idm1
+ 1502  ssh klptest.it.helsinki.fi
+ 1503  ssh -p 1979 fuu.it.helsinki.fi
+ 1504  ssh klptest.it.helsinki.fi
+ 1505  ssh -p 1979 fuu.it.helsinki.fi
+ 1506  sudo apt-get install git-svn
+ 1507  cd NetBeansProjects/
+ 1508  ls
+ 1509  git svn clone -s https://svn.it.helsinki.fi/repos/idmryhmienhallintapilot/ idmryhmienhallintapilot
+ 1510  ls idmryhmienhallintapilot/
+ 1511  ls
+ 1512  cd idmryhmienhallintapilot/
+ 1513  git status
+ 1514  git pull
+ 1515  git brach
+ 1516  git branch
+ 1517  ls -la
+ 1518  cd ..
+ 1519  rm -rf idmryhmienhallintapilot/
+ 1520  git svn clone -s https://svn.it.helsinki.fi/repos/idmryhmienhallintapilot/syncope idmryhmienhallintapilotsyncope
+ 1521  ls idmryhmienhallintapilotsyncope/
+ 1522  ls idmryhmienhallintapilotsyncope/syncopeproject115/
+ 1523  cd idmryhmienhallintapilotsyncope/
+ 1524  git branch
+ 1525  cd syncopeproject115/
+ 1526  git branch
+ 1527  cd ..
+ 1528  git svn svn show-ignore > .gitignore
+ 1529  git diff
+ 1530  git checkout .gitignore
+ 1531  git diff
+ 1532  git branch local
+ 1533  git branch
+ 1534  git checkout local
+ 1535  git svn rebase master
+ 1536  top
+ 1537  ssh -p 1979 192.168.1.99
+ 1538  ssh -p 1979 fuu.it.helsinki.fi
+ 1539  ssh klptest.it.helsinki.fi
+ 1540  cd .rbenv/ratebeer/
+ 1541  git status
+ 1542  rails server
+ 1543  bundle install
+ 1544  rails server
+ 1545  railsserver 
+ 1546  ssh klptest.it.helsinki.fi
+ 1547  ssh -p 1979 fuu.it.helsinki.fi
+ 1548  ssh -p 1979 fuu.it.helsinki.fi
+ 1549  dig
+ 1550  apt-cache search nettop
+ 1551  apt-cache search iptop
+ 1552  sudo apt-get install jnettop
+ 1553  jnettop -h
+ 1554  jnettop --display text -t 5
+ 1555  jnettop --display text -i wlan0 -t 5
+ 1556  ifconfig 
+ 1557  jnettop --display text -i wlan1 -t 5
+ 1558  jnettop -h
+ 1559  jnettop --display text -i wlan1 -t 5 --format '$srcname$,$srcport$,$dstname$,$dstport$,$totalbps$'
+ 1560  jnettop
+ 1561  jnettop -i wlan1
+ 1562  jnettop -i wlan1 -t 50
+ 1563  jnettop -i wlan1 
+ 1564  sudo jnettop -i wlan1 
+ 1565  sudo jnettop --display text -i wlan1 -t 5 --format '$srcname$,$srcport$,$dstname$,$dstport$,$totalbps$'
+ 1566  dig
+ 1567  ssh -p 1979 fuu.it.helsinki.fi
+ 1568  ssh artannik@artannika.com
+ 1569  ssh -XC 192.168.1.100
+ 1570  -XC 192.168.1.100
+ 1571  ssh -p 1979 fuu.it.helsinki.fi
+ 1572  ssh-XC 192.168.1.100
+ 1573  ssh -p 1979 192.168.1.99
+ 1574  top
+ 1575  pkill firefox
+ 1576  mkdir tktl
+ 1577  cd tktl/
+ 1578  mkdir fuzz
+ 1579  cd fuzz/
+ 1580  vim x
+ 1581  ifconfig 
+ 1582  ls
+ 1583  cd
+ 1584  cd rails/
+ 1585  git status
+ 1586  cd shop/
+ 1587  git status
+ 1588  cd ..
+ 1589  cd ../.rbenv_ratebeer/
+ 1590  ruby -v
+ 1591  vim ratebeer/Gemfile
+ 1592  find|grep rails
+ 1593  find|grep rails$
+ 1594  ls -tr
+ 1595  cd tktl/
+ 1596  ls
+ 1597  cd
+ 1598  cd rails/
+ 1599  ls
+ 1600  cd
+ 1601  mv .rbenv/ .rbenv_ratebeer
+ 1602  mkdir .rbenv
+ 1603  cd .rbenv
+ 1604  ln -s ~/rails/shop/
+ 1605  rm shop
+ 1606  cd ..
+ 1607  rmdir  .rbenv
+ 1608  type rbenv
+ 1609  cd .rbenv
+ 1610  ls
+ 1611  mkdir plugins
+ 1612  git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+ 1613  which ruby
+ 1614  ruby
+ 1615  rbenv install 1.8.7
+ 1616  rbenv install 1.8.7-p374
+ 1617  rbenv global 1.8.7-p374
+ 1618  ll
+ 1619  ruby -v
+ 1620  rbenv install --list
+ 1621  rbenv install --list --local
+ 1622  which ruby
+ 1623  vim /home/aulaskar/.gemrc 
+ 1624  gem install rdoc
+ 1625  gem install bundler
+ 1626  gem install rake 
+ 1627  rbenv rehash
+ 1628  gem install rails 2.3.18
+ 1629  l
+ 1630  ls
+ 1631  find|grep -i gem
+ 1632  find|grep -i gemfile
+ 1633  ls version
+ 1634  ls versions/
+ 1635  vim version
+ 1636  gem install rails-2.3.18
+ 1637  gem install rails --version 2.3.18
+ 1638  ln -s ~/rails/shop/
+ 1639  cd shop
+ 1640  ls
+ 1641  cd shop/
+ 1642  ls -la
+ 1643  ruby -v
+ 1644  rails -v
+ 1645  cd ..
+ 1646  rails
+ 1647  cd shop/
+ 1648  ls
+ 1649  cd shop/
+ 1650  ls
+ 1651  find|grep -i gemfile
+ 1652  find|grep -i gem
+ 1653  whereis rails
+ 1654  cd ..
+ 1655  ssh -p 1979 fuu.it.helsinki.fi
+ 1656  ssh-XC 192.168.1.100
+ 1657  ssh -XC 192.168.1.100
+ 1658  ssh -p 1979 fuu.it.helsinki.fi
+ 1659  ssh klptest.it.helsinki.fi
+ 1660  ifconfig 
+ 1661  ls tktl/fuzz/
+ 1662  cd tktl/fuzz/
+ 1663  gimp
+ 1664  ssh klptest.it.helsinki.fi
+ 1665  uptime
+ 1666  ssh klptest.it.helsinki.fi
+ 1667  vim /home/aulaskar/.rbenv_ratebeer/ratebeer/app/views/beers/index.html.erb 
+ 1668  cd ..
+ 1669  vim /home/aulaskar/.rbenv_ratebeer/ratebeer/app/views/beers/new.html.erb 
+ 1670  vim /home/aulaskar/.rbenv_ratebeer/ratebeer/app/views/beers/_form.html.erb 
+ 1671  vim /home/aulaskar/.rbenv_ratebeer/ratebeer/app/controllers/beers_controller.rb 
+ 1672  vim /home/aulaskar/.rbenv_ratebeer/ratebeer/app/views/beers/_form.html.erb 
+ 1673  vim /home/aulaskar/.rbenv_ratebeer/ratebeer/app/controllers/beers_controller.rb 
+ 1674  cd
+ 1675  cd NetBeansProjects/peli.jar/
+ 1676  ls
+ 1677  cd src/
+ 1678  ls -la
+ 1679  cd peli/.svn/
+ 1680  cd ..
+ 1681  ls
+ 1682  cat * |wc -l
+ 1683  cat * |wc -m
+ 1684  ls
+ 1685  cd ..
+ 1686  ls
+ 1687  cd peli.jar/
+ 1688  ls
+ 1689  find
+ 1690  ls
+ 1691  ls build
+ 1692  ls build/classes/
+ 1693  vim README.txt 
+ 1694  vim TODO.html 
+ 1695  cd
+ 1696  cd tktl/fuzz/
+ 1697  ls
+ 1698  cd app/models/
+ 1699  ls
+ 1700  vim food.rb 
+ 1701  rake db:migrate
+ 1702  vim /home/aulaskar/rails/ruokalista/Rakefile
+ 1703  rake db:migrate
+ 1704  vim ../controllers/foods_controller.rb 
+ 1705  cd ..
+ 1706  rake db:migrate
+ 1707  rake db:drop
+ 1708  rake db:migrate
+ 1709  ll
+ 1710  cd ..
+ 1711  mv ruokalista/ r
+ 1712  ls -la
+ 1713  ls shop/
+ 1714  git status
+ 1715  mkdir ruokalista
+ 1716  git clone https://github.com/ismoaulaskari/ruokalista.git
+ 1717  ls
+ 1718  ls -la
+ 1719  cd ruokalista/
+ 1720  ls -al
+ 1721  mv ../r ruokalista
+ 1722  ls -la
+ 1723  git status
+ 1724  vim .gitignore 
+ 1725  git status
+ 1726  git add -A
+ 1727  git status
+ 1728  git branch
+ 1729  git commit -m"Initial import"
+ 1730  git push -u origin master
+ 1731  vim .git/config 
+ 1732  cd ../shop/
+ 1733  vim .git/config 
+ 1734  vim ../ruokalista/.git/config 
+ 1735  cd ../ruokalista/
+ 1736  git push -u origin master
+ 1737  git status
+ 1738  git branch -b local
+ 1739  git checkout -b local
+ 1740  cd ruokalista/app/models/
+ 1741  vim food.rb 
+ 1742  vim ../views/foods/new.html.erb 
+ 1743  cd ..
+ 1744  cd public/
+ 1745  ls
+ 1746  vim index.html 
+ 1747  >index.html 
+ 1748  vim robots.txt 
+ 1749  cd ..
+ 1750  vim app/views/foods/new.html.erb 
+ 1751  vim db/seeds.rb 
+ 1752  cd ..
+ 1753  git status
+ 1754  git add -A
+ 1755  git branch
+ 1756  git commit -m"Validation and privacy"
+ 1757  git checkout master
+ 1758  git merge local
+ 1759  git push -u origin master
+ 1760  git checkout local
+ 1761  vim ruokalista/app/models/food.rb 
+ 1762  ls
+ 1763  vim LICENSE 
+ 1764  vim ruokalista/db/seeds.rb 
+ 1765  scp 192.168.1.100:kierta* /tmp/
+ 1766  scp 192.168.1.100:kiert* /tmp/
+ 1767  perl -ne 'print $_;' </tmp/kiertävä_ruokalista 
+ 1768  perl -ne '$week=1; /^$/ && $week++; s/^(.*)/${week} $1/' </tmp/kiertävä_ruokalista 
+ 1769  perl -ne '$week=1; /^$/ && $week++; s/^(.*)/${week} $1/; print' </tmp/kiertävä_ruokalista 
+ 1770  perl -ne ' /^$/ && $week++; s/^(.*)/${week} $1/; print' </tmp/kiertävä_ruokalista 
+ 1771  perl -ne ' /^$/ && ++$week; s/^(.*)/${week} $1/; print' </tmp/kiertävä_ruokalista 
+ 1772  perl -ne ' /^$/ && $week++; s/^(.*)/${week} $1/; print' </tmp/kiertävä_ruokalista 
+ 1773  perl -ne 'if(undefined $week) $week=1; /^$/ && $week++; s/^(.*)/${week} $1/; print' </tmp/kiertävä_ruokalista 
+ 1774  perl -ne 'if(!$week) $week=1; /^$/ && $week++; s/^(.*)/${week} $1/; print' </tmp/kiertävä_ruokalista 
+ 1775  perl -ne 'if(!$week) {$week=1}; /^$/ && $week++; s/^(.*)/${week} $1/; print' </tmp/kiertävä_ruokalista 
+ 1776  vim ruokalista/db/seeds.rb 
+ 1777  perl -ne 'if(!$week) {$week=1}; /^$/ && $week++; s/^(.*Food.create(:week => '${week}'. :name: => '${1}', :meatiness: => 'unknown')/; print' </tmp/kiertävä_ruokalista 
+ 1778  perl -ne 'if(!$week) {$week=1}; /^$/ && $week++; s/^(.*Food.create(:week => \'${week}\'. :name: => \'${1}\', :meatiness: => \'unknown\')/; print' </tmp/kiertävä_ruokalista 
+ 1779  perl -ne 'if(!$week) {$week=1}; /^$/ && $week++; s/^(.*)/Food.create(:week => \'${week}\'. :name: => \'${1}\', :meatiness: => \'unknown\'/; print' </tmp/kiertävä_ruokalista 
+ 1780  echo perl -ne 'if(!$week) {$week=1}; /^$/ && $week++; s/^(.*)/Food.create(:week => \'${week}\'. :name: => \'${1}\', :meatiness: => \'unknown\'/; print' </tmp/kiertävä_ruokalista 
+ 1781  clear
+ 1782  echo perl -ne 'if(!$week) {$week=1}; /^$/ && $week++; s/^(.*)/Food.create(:week => \'${week}\'. :name: => \'${1}\', :meatiness: => \'unknown\'/; print' </tmp/kiertävä_ruokalista 
+ 1783  perl -ne 'if(!$week) {$week=1}; /^$/ && $week++; s/^(.*)/Food.create(:week => \'${week}\'. :name: => \'${1}\', :meatiness: => \'unknown\'/; print' </tmp/kiertävä_ruokalista 
+ 1784  perl -ne 'if(!$week) {$week=1}; /^$/ && $week++; s/^(.*)$/Food.create(:week => "${week}". :name: => "${1}", :meatiness: => "unknown"/; print' </tmp/kiertävä_ruokalista 
+ 1785  clear
+ 1786  perl -ne 'if(!$week) {$week=1}; /^$/ && $week++; s/^(.*)$/Food.create(:week => "${week}". :name: => "${1}", :meatiness: => "unknown")/; print' </tmp/kiertävä_ruokalista 
+ 1787  clear
+ 1788  perl -ne 'if(!$week) {$week=1}; /^$/ && $week++; s/^(.*)$/Food.create(:week => "${week}". :name: => "${1}", :meatiness: => "unknown")/; print' </tmp/kiertävä_ruokalista >>ruokalista/db/seeds.rb 
+ 1789  vim ruokalista/db/seeds.rb
+ 1790  rake db:seed
+ 1791  cd ruokalista/
+ 1792  rake db:seed
+ 1793  vim ruokalista/db/seeds.rb
+ 1794  vim db/seeds.rb 
+ 1795  rake db:seed
+ 1796  vim db/seeds.rb 
+ 1797  cd ..
+ 1798  perl -ne 'if(!$week) {$week=1}; /^$/ && $week++; s/^(.*)$/Food.create(:week => "${week}". :name: => "${1}", :meatiness: => "unknown")/; print' </tmp/kiertävä_ruokalista >>ruokalista/db/seeds.rb 
+ 1799  cd -
+ 1800  vim db/seeds.rb 
+ 1801  rake db:seed
+ 1802  vim db/seeds.rb 
+ 1803  cd ..
+ 1804  perl -ne 'if(!$week) {$week=1}; /^$/ && $week++; s/^(.*)$/Food.create(:week => "${week}". :name => "${1}", :meatiness => "unknown")/; print' </tmp/kiertävä_ruokalista >>ruokalista/db/seeds.rb 
+ 1805  c d-
+ 1806  cd -
+ 1807  rake db:seed
+ 1808  cd ..
+ 1809  vim ruokalista/db/seeds.rb 
+ 1810  perl -ne 'if(!$week) {$week=1}; /^$/ && $week++; s/^(.*)$/Food.create(:week => "${week}", :name => "${1}", :meatiness => "unknown")/; print' </tmp/kiertävä_ruokalista >>ruokalista/db/seeds.rb 
+ 1811  cd -
+ 1812  rake db:seed
+ 1813  cd ..
+ 1814  git status
+ 1815  git add -A
+ 1816  git commit -m"Ready foods for seeding"
+ 1817  git branch
+ 1818  git checkout master
+ 1819  git merge local
+ 1820  git push -u origin master
+ 1821  git checkout local
+ 1822  vim ruokalista/app/models/food.rb 
+ 1823  vim ruokalista/app/views/foods/new.html.erb 
+ 1824  vim ruokalista/app/models/food.rb 
+ 1825  vim ruokalista/app/views/foods/new.html.erb 
+ 1826  vim ruokalista/app/views/foods/index.html.erb 
+ 1827  vim ruokalista/app/views/foods/new.html.erb 
+ 1828  vim ruokalista/app/models/food.rb 
+ 1829  vim ruokalista/app/views/foods/new.html.erb 
+ 1830  ruokalista/script/console 
+ 1831  vim ruokalista/app/views/foods/new.html.erb 
+ 1832  vim ruokalista/app/models/food.rb 
+ 1833  vim ruokalista/app/views/foods/new.html.erb 
+ 1834  vim ruokalista/app/models/food.rb 
+ 1835  vim ruokalista/app/controllers/foods_controller.rb 
+ 1836  vim ruokalista/app/views/foods/new.html.erb 
+ 1837  vim ruokalista/app/controllers/foods_controller.rb 
+ 1838  vim ruokalista/app/views/foods/new.html.erb 
+ 1839  vim ruokalista/db/seeds.rb 
+ 1840  vim ruokalista/app/views/foods/new.html.erb 
+ 1841  vim ruokalista/app/models/food.rb 
+ 1842  vim ruokalista/app/views/foods/new.html.erb 
+ 1843  git add -A
+ 1844  git commit -m"Select works finally"
+ 1845  git checkout master
+ 1846  git merge local
+ 1847  git push -u origin master
+ 1848  git checkout local
+ 1849  cd ruokalista/
+ 1850  rake routes
+ 1851  ls
+ 1852  cd ..
+ 1853  scp -r ruokalista/ artannik@artannika.com:rails_apps/
+ 1854  ls ruokalista/db/
+ 1855  scp -r ruokalista/ artannik@artannika.com:rails_apps/
+ 1856  cd ruokalista
+ 1857  less log/development.log 
+ 1858  cd ..
+ 1859  scp -r ruokalista/ artannik@artannika.com:rails_apps/
+ 1860  grep -R artannika *
+ 1861  vim ruokalista/app/controllers/application_controller.rb
+ 1862  git add -A
+ 1863  git status
+ 1864  git commit -m"Into production"
+ 1865  git checkout local
+ 1866  git merge master
+ 1867  vim ruokalista/app/controllers/application_controller.rb
+ 1868  git status
+ 1869  vim ruokalista/app/controllers/application_controller.rb
+ 1870  git status
+ 1871  git add -A
+ 1872  git commit -m"dev-mode-auth away"
+ 1873  git checkout master
+ 1874  git merge local
+ 1875  git push -u origin master
+ 1876  scp -r ruokalista/ artannik@artannika.com:rails_apps/
+ 1877  git checkout local
+ 1878  vim ruokalista/app/controllers/application_controller.rb
+ 1879  git add -A
+ 1880  git commit -m"dev-mode-auth away"
+ 1881  git checkout master
+ 1882  git merge local
+ 1883  git push -u origin master
+ 1884  ls
+ 1885  vim README.md 
+ 1886  git status
+ 1887  git add -A
+ 1888  mv ~/Pictures/ruokalista.png .
+ 1889  git add -A
+ 1890  git status
+ 1891  git commit -m"demo picture"
+ 1892  git status
+ 1893  git checkout master
+ 1894  git merge local
+ 1895  git push -u origin master
+ 1896  git checkout local
+ 1897  gimp ruokalista
+ 1898  gimp ruokalista.png 
+ 1899  mv ~/ruokalista.png .
+ 1900  git commit -am"demo picture resize"
+ 1901  git checkout master
+ 1902  git merge local
+ 1903  git push -u origin master
+ 1904  git checkout local
+ 1905  grep annika -R *
+ 1906  ls
+ 1907  vim README.md 
+ 1908  git add -A
+ 1909  git commit -am"demo picture resize"
+ 1910  git checkout master
+ 1911  git merge local
+ 1912  git push -u origin master
+ 1913  vim ruokalista/README 
+ 1914  git add -A
+ 1915  git commit -am"doc release"
+ 1916  git checkout master
+ 1917  git merge local
+ 1918  git push -u origin master
+ 1919  git help tag 
+ 1920  git tag V1.0
+ 1921  git status
+ 1922  git checkout master
+ 1923  git push -u origin master
+ 1924  git tag
+ 1925  git tag -a v1.0 -m "First production release"
+ 1926  git status
+ 1927  git add -A
+ 1928  git status
+ 1929  git show
+ 1930  git checkout local
+ 1931  git merge master
+ 1932  git tag
+ 1933  vim ruokalista/README 
+ 1934  vim ruokalista/doc/README_FOR_APP 
+ 1935  ssh klptest.it.helsinki.fi
+ 1936  ssh -p 1979 fuu.it.helsinki.fi
+ 1937  cd tktl/
+ 1938  wget http://www.cs.helsinki.fi/u/aulaskar/kurssit/swsec/latex/lecture3.pdf
+ 1939  cd
+ 1940  ssh -p 1979 fuu.it.helsinki.fi
+ 1941  send
+ 1942  top
+ 1943  ssh -XC 192.168.1.100
+ 1944  sudo vim /etc/hosts
+ 1945  telnet facebook.com 80
+ 1946  ssh -p 1979 fuu.it.helsinki.fi
+ 1947  cd tktl/
+ 1948  ls
+ 1949  mkdir threat
+ 1950  mkdir swsec
+ 1951  mv * swsec/
+ 1952  cd swsec/
+ 1953  ls
+ 1954  cd threat/
+ 1955  ls
+ 1956  vim threat.txt
+ 1957  scp -r /home/aulaskar/tktl/swsec/threat/ melkinpaasi.cs.helsinki.fi:
+ 1958  vim threat.txt
+ 1959  cd ..
+ 1960  scp -r /home/aulaskar/tktl/swsec/threat/ melkinpaasi.cs.helsinki.fi:
+ 1961  cd -
+ 1962  vim threat.txt 
+ 1963  vim risks.txt
+ 1964  vim threat.txt 
+ 1965  cp threat.* ~/Documents/
+ 1966  ssh -p 1979 dmz.aulaskari.fi
+ 1967  dig
+ 1968  ssh maria@192.168.0.12
+ 1969  ping www.google.fi
+ 1970  ssh -p 1979 fuu.it.helsinki.fi
+ 1971  ssh klptest.it.helsinki.fi
+ 1972  sudo wvdial
+ 1973  sudo pkill ppd
+ 1974  sudo wvdial
+ 1975  top
+ 1976  al
+ 1977  ssh -p 1979 fuu.it.helsinki.fi
+ 1978  ping www.google.fi
+ 1979  ssh -p 1979 fuu.it.helsinki.fi
+ 1980  ssh -p 1979 fuu.it.helsinki.fi
+ 1981  ssh -p 1979 fuu.it.helsinki.fi
+ 1982  sudo wvdial
+ 1983  sudo pkill ppd
+ 1984  sudo wvdial
+ 1985  -p 1979 fuu.it.helsinki.fi
+ 1986  sudo wvdial
+ 1987  sudo pkill ppd
+ 1988  sudo wvdial
+ 1989  sudo pkill ppd
+ 1990  sudo wvdial
+ 1991  sudo pkill ppd
+ 1992  sudo wvdial
+ 1993  ping www.google.fi
+ 1994  ssh -p 1979 fuu.it.helsinki.fi
+ 1995  ssh -p 1979 fuu.it.helsinki.fi
+ 1996  ping www.google.fi
+ 1997  elsinki.fi
+ 1998  cp threat* ~/Documents/
+ 1999  ssh -p 1979 dmz.aulaskari.fi
+ 2000  umount /media/5058-F823 
+ 2001  dmesg 
+ 2002  pgrep dd
+ 2003  ps aux|grep dd
+ 2004  kill -USR1 24890
+ 2005  kill -USR1 24883
+ 2006  sudo kill -USR1 24890
+ 2007  kill -USR1 24883
+ 2008  watch kill -USR1 24883
+ 2009  top
+ 2010  pkill plugin-containe
+ 2011  pkill firefox
+ 2012  watch kill -USR1 24883
+ 2013  du -sh Downloads/raspberry/2014-01-07-wheezy-raspbian.img 
+ 2014  watch kill -USR1 24883
+ 2015  du -sh Downloads/raspberry/2014-01-07-wheezy-raspbian.img 
+ 2016  watch kill -USR1 24883
+ 2017  top
+ 2018  ps aux|grep dd
+ 2019  watch kill -USR1 24883
+ 2020  iotop 
+ 2021  sudo iotop 
+ 2022  ssh -p 1979 dmz.aulaskari.fi
+ 2023  cd .rbenv/shop
+ 2024  ls
+ 2025  cd shop/
+ 2026  ls
+ 2027  find app
+ 2028  ls
+ 2029  history
+ 2030  history>../../ruokalista/history
